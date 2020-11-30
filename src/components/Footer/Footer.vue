@@ -3,9 +3,9 @@
         <div id="divs">
             <router-link tag="div" to="/Home"><van-icon name="wap-home-o" class="item-icon" size="2rem" /><br><span>首页</span>
             </router-link>
-            <router-link tag="div" to="/Classify"><van-icon name="apps-o" size="2rem"/><br><span>首页</span></router-link>
-            <router-link tag="div" to="/Shopping"><van-icon name="cart-o" size="2rem"/><br><span>首页</span></router-link>
-            <router-link tag="div" to="/My"><van-icon name="friends-o" size="2rem" /><br><span>首页</span></router-link>
+            <router-link tag="div" to="/Classify"><van-icon name="apps-o" size="2rem"/><br><span>分类</span></router-link>
+            <router-link tag="div" to="/Shopping"><van-icon name="cart-o" size="2rem"/><br><span>购物车</span></router-link>
+            <router-link tag="div" to="/My"><van-icon name="friends-o" size="2rem" /><br><span>我的</span></router-link>
         </div>
     </div>
 </template>
@@ -17,6 +17,7 @@
     position: fixed;
     bottom: 0;
     left: 0;
+    background: white;
 }
 #divs{
     display: flex;

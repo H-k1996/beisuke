@@ -1,5 +1,5 @@
 <template>
-  <div>
+  <div id="app">
     <van-row>
       <van-col span="5">
         <van-icon name="location-o" size="1.8rem" class="ding" />
@@ -84,6 +84,13 @@ export default {
 };
 </script>
 <style scoped>
+#app{
+    position: fixed;
+    top: 0;
+    z-index: 2;
+    background: white;
+    width: 100%;
+}
 .ding {
   margin-top: 0.9rem;
   vertical-align: middle;

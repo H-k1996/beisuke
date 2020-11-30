@@ -3,6 +3,7 @@
     <Headers @event1="change($event)"></Headers>
     <Shanghai v-show="bool"></Shanghai>
     <Changzhou v-show="bool1"></Changzhou>
+
     <Footer></Footer>
   </div>
 </template>
@@ -22,7 +23,7 @@ export default {
     return {
       addresss: '',
       bool:true,
-      bool1:false
+      bool1:false,
     };
   },
   methods: {

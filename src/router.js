@@ -15,6 +15,7 @@ export default new Router({
     },
     {
       path: '/Shanghai',
+      name:'shanghai',
       component: () => import('./components/Shanghai/Shanghai.vue')
     }, {
       path: '/Changzhou',
@@ -34,6 +35,17 @@ export default new Router({
       path: "/My",
       name: "my",
       component: () => import('./views/My/My.vue')
+    },
+    {
+      path: "/Shuangoneone",
+      name: "shuangoneone",
+      component: () => import('./components/Shuangoneone/Shuangoneone.vue')
+    }
+    ,
+    {
+      path: "/Quanchuang",
+      name: "quanchuang",
+      component: () => import('./components/Quanchang/Quanchuang.vue')
     }
   ]
 });
